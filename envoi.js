@@ -17,7 +17,7 @@ function endQuiz() {
     nom: user.nom,
     prenom: user.prenom,
     score: `${score} / ${questions.length}`,
-    email: "patrick.pruvost50@gmail.com"
+    email: "lyceepro.mermoz@gmail.com"
   };
 
   emailjs
