@@ -23,7 +23,7 @@ function endQuiz() {
   emailjs
     .send("service_cgh817y", "template_ly7s41e", emailParams)
     .then(() => {
-      alert("✅ Résultats envoyés par e-mail !");
+      alert("✅ Résultats envoyés automatiquement par e-mail à votre prof de Maths - Sciences... Merci");
     })
     .catch((error) => {
       console.error("❌ Erreur EmailJS :", error);
